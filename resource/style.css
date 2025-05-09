@@ -1,0 +1,57 @@
+/* Style for the entry field */
+#calc-entry {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    color: #333;
+    min-width: 260px;  /* Set width of entry field */
+    min-height: 40px;  /* Set height of entry field */
+}
+
+/* Style for number buttons (0-9, .) */
+.number-button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.number-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style for operator buttons (+, -, *, /, =) */
+.operator-button {
+    background-image: none;
+    background-color: #ff9500;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #cc7a00;
+}
+
+.operator-button:hover {
+    background-color: #e08600;
+}
+
+/* Style for function buttons (C, ±) */
+.function-button {
+    background-image: none;
+    background-color: #ff3b30;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #cc2f27;
+}
+
+.function-button:hover {
+    background-color: #e0342b;
+}
+
+/* General window background */
+window {
+    background-image: none;
+    background-color: #e8ecef;
+}
